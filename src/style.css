@@ -1,0 +1,196 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GRAY: #343a40 (text)
+LIGHT GRAY: #868e96 (hover)
+button text color: #fff
+*/
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  border-top: 12px solid #212529;
+  background-image: url(https://images2.alphacoders.com/693/thumb-1920-693692.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 62px;
+}
+
+nav {
+  display: flex;
+  gap: 192px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: auto;
+  height: 44px;
+  margin-bottom: 128px;
+}
+
+a {
+  color: #212529;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  transition: 1s;
+}
+
+h2 {
+  font-size: 52px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.img img {
+  width: 100%;
+}
+
+.first-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  margin-bottom: 96px;
+}
+
+.img-2 img {
+  width: 100%;
+}
+
+.second-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  margin-bottom: 128px;
+}
+
+.second-grid p {
+  line-height: 175%;
+}
+
+footer {
+  margin-top: 64px;
+  margin-bottom: 48px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer p {
+  font-size: 14px;
+  margin-left: 24px;
+}
+
+.line {
+  background-color: #212529;
+  height: 12px;
+  width: 960px;
+  margin-bottom: 96px;
+}
+
+.wing {
+  margin-right: 16px;
+  margin-left: 16px;
+  height: 74px;
+  width: 74px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.button:link,
+.button:visited {
+  background-color: #212529;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #868e96;
+  transition: 0.5s;
+}
+
+.button-header {
+  font-size: 44px;
+  text-align: center;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.button-text {
+  margin-bottom: 128px;
+}
+
+.arrow {
+  height: 74px;
+  width: 74px;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-left: 450px;
+}
+
+.medias {
+  display: flex;
+  gap: 192px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 128px;
+}
+
+.contact-text {
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 48px;
+}
