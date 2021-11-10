@@ -1,3 +1,3 @@
 # Angelica 
 
-Angelica I made with html and css that teaches about angels.
+Angelica is a web applicattion that provides you information about angels.
